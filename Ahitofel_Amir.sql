@@ -6,8 +6,6 @@ Changes to this file may cause incorrect behavior and will be lost if
 the code is regenerated.
 */
 
-GO
-SET ANSI_NULLS, ANSI_PADDING, ANSI_WARNINGS, ARITHABORT, CONCAT_NULL_YIELDS_NULL, QUOTED_IDENTIFIER ON;
 
 SET NUMERIC_ROUNDABORT OFF;
 
@@ -18,6 +16,8 @@ GO
 :setvar DefaultDataPath "C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER01\MSSQL\DATA\"
 :setvar DefaultLogPath "C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER01\MSSQL\DATA\"
 
+
+--New line 
 GO
 :on error exit
 GO
